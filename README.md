@@ -8,7 +8,7 @@ __EXAMPLES__
 
 > __Put Item__
  
-
+```php
      $putArr 		 = array();
      $dynamoObj 	 = new DynamoHelper();
      $putArr 		 = $dynamoObj->addPutItems("ColumnName1", "ColumnValue1", 'S', $putArr);
@@ -16,6 +16,6 @@ __EXAMPLES__
      $putArr 		 = $dynamoObj->addPutItems("ColumnName3", "ColumnValue3", 'S', $putArr);
      $response   	 = $dynamoObj->executeQuery("TableName", $putArr, null, QUERY_PUT_ITEMS);
      var_dump($response);
-
+```
 
 *Code needs to be pushed*
