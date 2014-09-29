@@ -6,7 +6,7 @@ Open DynamoHelper.php for detailed examples written in comments
 
 __EXAMPLES__
 
-__Put Item__
+> __Put Item__
  
 
      $putArr 		 = array();
