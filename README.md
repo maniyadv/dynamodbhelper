@@ -10,7 +10,7 @@ __EXAMPLES__
  
 
      $putArr 		 = array();
-     $dynamoObj 	  = new DynamoHelper();
+     $dynamoObj 	 = new DynamoHelper();
      $putArr 		 = $dynamoObj->addPutItems("ColumnName1", "ColumnValue1", 'S', $putArr);
      $putArr 		 = $dynamoObj->addPutItems("ColumnName2", "ColumnValue2", 'S', $putArr);
      $putArr 		 = $dynamoObj->addPutItems("ColumnName3", "ColumnValue3", 'S', $putArr);
